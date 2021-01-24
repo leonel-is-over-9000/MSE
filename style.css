@@ -97,3 +97,7 @@
 	border-radius: 5px;
 	overflow-y: auto;
 }
+
+body{
+	background-color:red;
+}
