@@ -34,6 +34,7 @@ window.addEventListener('load', function () {
         if (id && id.length > 0) {
             anchor.onclick = function () {
                 RealClickHandler(this.id);
+                alert("test");
                 return false;
             };
         }
@@ -52,5 +53,3 @@ bt2.onclick = function () {
     window.open(tBox1.innerHTML);
 };
 
-
-alert("test");
