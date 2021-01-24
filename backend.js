@@ -53,21 +53,4 @@ bt2.onclick = function () {
 };
 
 
-/*(function () {
-    var meta = document.createElement("meta");
-    meta.charset='UTF-8';
-
-    var script = document.createElement("script");
-    script.type = 'text/javscript';
-    script.src = 'https://app.box.com/s/xkiq50f0imgs8xscqh61i0vqv0oe9msr';
-
-    var link = document.createElement("link");
-    link.rel = 'StyleSheet';
-    link.type = 'text/css';
-    link.href = 'https://app.box.com/s/3gjmur8hn4g4fqbiuqzxkcuna6zvuowj';
-
-    document.getElementsByTagName("head")[0].appendChild(meta);
-    document.getElementsByTagName("body")[0].appendChild(script);
-    document.getElementsByTagName("head")[0].appendChild(link);
-})();*/
 alert("test");
