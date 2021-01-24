@@ -26,7 +26,7 @@ var bt1 = document.getElementById("saveb");
 var bt2 = document.getElementById("playb");
 
 
-window.onload = function () {
+window.addEventListener('load', function () {
     var anchors = document.getElementsByTagName("a");
     for (var i = 0; i < anchors.length; i++) {
         var anchor = anchors[i];
@@ -38,7 +38,7 @@ window.onload = function () {
             };
         }
     }
-};
+});
 
 function RealClickHandler(id) {
     var urlLink = tBox1.innerHTML = "https://www.memesoundboard.com/sounds/" + id + ".mp3";
